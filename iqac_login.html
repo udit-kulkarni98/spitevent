@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Login</title>	
+	
+	<link rel ="stylesheet" http://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="iqac.css" >
+  
+  <style>
+  bor {
+  border: 5px solid powderblue;
+}
+ 
+  </style>
+
+</head>
+
+<body>
+<div class="jumbotron jumbol" >
+	<center><img class="img-fluid" src="logo.png" width="60px" height="60px" alt="spitlogo" ></center><br>
+	<h3><center><b>Bharatiya Vidya Bhavan's Sardar Patel Institute of Technology</b></center></h3><br>
+<form action="iqac_loginphp.php" method="post">
+<div align="center"> 
+  <div class="card" style="width:350px">
+  <div style="width:350px"><img class="card-img-top" src="admin.png" alt="Card image"></div>
+  <div class="card-body">
+    <h2 class="card-title">	Login</h2>
+
+<span class="label-input100"><span class="glyphicon glyphicon-user" required></span>   Type of Login :</span>
+<div>
+<div>
+
+<br>  
+<select type="button" class="dropdown btn btn-outline-primary btn-block btn-lg " id="logintype" name="logintype">	
+	<option>Teacher</option>
+	<option>Non-teaching Staff</option>
+		<option>Student</option>
+		<option>Committee</option>
+		<option>Admin</option>
+	  </select> 
+				
+				
+					</div>
+					
+				</div>
+
+  <br>
+  				<div >
+					
+					<span class="label-input100"><span class="glyphicon glyphicon-user"></span>   Username : </span> <br>
+					<input class="form-control form-control-lg" type="text" id="username" name="username" placeholder="Enter Username" required>
+					
+				
+				</div>
+				<br>
+					<div >
+					
+					<span class="label-input100"><span class="glyphicon glyphicon-asterisk"></span>    Password : </span> <br>
+					<input class="form-control form-control-lg" type="password" id="password" name="password" placeholder="Enter Password" required>
+					
+				
+				</div>
+				<br><br>
+				<div class="row">
+				
+					
+					<div class="col-md-4">
+						
+						<button type="button submit" class="btn btn-outline-primary btn-lg" role="button"  name="login" > <i class="fa fa-user" aria-hidden="true"></i>   LOGIN</button></div>
+					
+		</form>		
+				<div class="col-md-4">
+			<a type="button " class="btn btn-outline-warning btn-lg" href="iqac_signup.php"><i class="fa fa-user-plus" aria-hidden="true"></i>   SIGN UP</a>
+	</div>
+	
+</div>
+		
+</div>
+<br><br>
+</div>
+</div>
+<br>
+
+<br><br>
+  <br><br><br>
+<br><br><br>
+
+</div>
+</body>
+</html>
