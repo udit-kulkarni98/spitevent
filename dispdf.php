@@ -2,9 +2,8 @@
 require_once('dbconnect.php');
 session_start();
 	
-	error_reporting(0);
+	error_reporting(5);
 ?>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <?php 
 
 $actno="";
@@ -372,7 +371,7 @@ $nameofactiv=$_SESSION['nameofactivity'];
 		
 	
 	
-	$dir='uploads/activity/reports/';
+	$dir='uploads//activity//reports//';
                 $filename= $Name."_".$date.".pdf";
         
         
@@ -382,9 +381,8 @@ $nameofactiv=$_SESSION['nameofactivity'];
 	
 	
 	echo "<script type='text/javascript'>
-			swal('Thankyou!', 'You activity is registered successfully', 'success');
+			alert('Thankyou!', 'You activity is registered successfully', 'success');
 			</script>";
-			//sleep(10);
 			echo "<script type='text/javascript'>
 			window.location='iqac_dashboard.php';
 			</script>";

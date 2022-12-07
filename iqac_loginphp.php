@@ -60,13 +60,13 @@ if(isset($_POST['login']))
 							</script>";
 					}
 				} 
-				// else
-				// {				
-				// 	echo "<script type='text/javascript'>
-				// 		alert('Login unsucessfull.');
-				// 		window.location='iqac_login.html';
-				// 		</script>";
-				// }
+				else
+				{				
+					echo "<script type='text/javascript'>
+						alert('Login unsucessfull.');
+						window.location='iqac_login.html';
+						</script>";
+				}
 			}
 		
 }

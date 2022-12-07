@@ -72,7 +72,8 @@ if(!isset($_SESSION['username'])){
 <a href="iqac_admin_publications.php" class="btn btn-outline-primary btn-lg" role="button">Add a Publication</a>
 <a href="iqac_admin_signup.php" class="btn btn-outline-primary btn-lg" role="button">Add a User</a>
 <a href="iqac_viewusers.php" class="btn btn-outline-primary btn-lg" role="button">View all User</a>
-<a href="iqac_viewreports.php" class="btn btn-outline-primary btn-lg" role="button">View all IQAC reports</a>
+<a href="iqac_viewreports.php" class="btn btn-outline-primary btn-lg" role="button">View all IQAC reports - Pdf</a>
+<a href="iqac_viewreportsData.php" class="btn btn-outline-primary btn-lg" role="button">View all IQAC Report data</a>
 
 
     
