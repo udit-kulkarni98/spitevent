@@ -23,7 +23,7 @@ $del = $_GET['activno'];
 		if($result===TRUE){
             echo "<script type='text/javascript'>
 						alert('Activity Deleted');
-						window.location='iiqac_viewreportsData.php';
+						window.location='iqac_viewreportsData.php';
 						</script>";		
 		}
 		else

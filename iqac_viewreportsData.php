@@ -158,12 +158,9 @@ if(!isset($_SESSION['username'])){
         }
         echo "</table>";
         
-			 
-			 
-			
 		}
 		else
-				 echo "0 results";
+				 echo "No results";
 			
 		
 	
