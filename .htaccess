@@ -1,0 +1,99 @@
+Options -Indexes
+AuthUserFile "C:\xampp\htdocs\spitevent\.htpasswd"
+AuthType Basic
+AuthName "Restricted Folder"
+
+<Files "iqac_admin.php">
+  Require valid-user
+</Files>
+
+<Files "deleteactivityphp.php">
+  Require valid-user
+</Files>
+
+<Files "deleteuserphp.php">
+  Require valid-user
+</Files>
+
+<Files "iqac_viewreportsData.php">
+  Require valid-user
+</Files>
+
+<Files "iqac_viewreportsDataphp.php">
+  Require valid-user
+</Files>
+
+<Files "iqac_admin_achievements.php">
+  Require valid-user
+</Files>
+
+<Files "iqac_admin_achievementsphp.php">
+  Require valid-user
+</Files>
+
+<Files "iqac_admin_events.php">
+  Require valid-user
+</Files>
+
+<Files "iqac_admin_eventsphp.php">
+  Require valid-user
+</Files>
+
+<Files "iqac_admin_publications.php">
+  Require valid-user
+</Files>
+
+<Files "iqac_admin_publiationsphp.php">
+  Require valid-user
+</Files>
+
+<Files "iqac_admin_signupphp.php">
+  Require valid-user
+</Files>
+
+<Files "iqac_viewusersphp.php">
+  Require valid-user
+</Files>
+
+<Files "iqac_viewusers.php">
+  Require valid-user
+</Files>
+
+<Files "iqac_viewreports.php">
+  Require valid-user
+</Files>
+
+<Files "iqac_viewreportsphp.php">
+  Require valid-user
+</Files>
+
+<Files "iqac_admin_update.php">
+  Require valid-user
+</Files>
+
+<Files "iqac_admin_updatephp.php">
+  Require valid-user
+</Files>
+
+<Files "iqac_admin_signup.php">
+  Require valid-user
+</Files>
+
+<Files "iqac_admin_signup.php">
+  Require valid-user
+</Files>
+
+<Files "achievereport.php">
+  Require valid-user
+</Files>
+
+<Files "activityreport.php">
+  Require valid-user
+</Files>
+
+<Files "eventreport.php">
+  Require valid-user
+</Files>
+
+
+
