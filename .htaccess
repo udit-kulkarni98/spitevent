@@ -1,0 +1,8 @@
+Options -Indexes
+AuthUserFile "C:\xampp\htdocs\.htpasswd"
+AuthType Basic
+AuthName "Restricted Folder"
+
+<Files "iqac_admin.php">
+  Require valid-user
+</Files>
